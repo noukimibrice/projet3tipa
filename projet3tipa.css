@@ -1,0 +1,267 @@
+body{
+	font-family: montserrat
+}
+header{
+	display: flex;
+	justify-content: center;
+}
+.menu{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 90%;
+	height: 85px;
+	border: 1px #f2f2f2 solid;
+	background-color: #f2f2f2;
+	margin-top: -22px
+}
+.logo{
+	font-size: 2.9em;
+	font-weight: bold;
+}
+.carre{
+	width: 400px;
+	height: 300px;
+	border: 1px #f2f2f2 solid;
+	background-color: #f2f2f2;
+}
+#bloc_gauche{
+	margin-left: 72px;
+	margin-top: 24px;
+}
+.partie1{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 400px;
+	height: 40px;
+	border: 1px #C2C2C2 solid;
+	background-color: #C2C2C2;
+	box-shadow: 0px 0px 1px black;
+}
+.paris{
+	margin-left: 10px;
+}
+.partie2{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+}
+.reservez{
+	font-size: 1.5em;
+	font-weight: bold;
+	text-align: center;
+}
+.decouvez{
+	font-size: 1.0em;
+	text-align: center;
+	margin-top: -6px
+}
+.explorez{
+	background-image: linear-gradient(#754674, #C956F0);
+	font-size: 0.9em;
+	border-radius: 17px;
+	padding: 11px;
+	color: white;
+
+}
+a{
+	color: white;
+	text-decoration: none;
+}
+article{
+	display: flex;
+
+}
+#bloc_droite{
+	margin-left: 150px;
+	margin-top: 16px;
+}
+.element1{
+	margin-top: 11px;
+}
+/*.element1:hover{
+	background-color: #C956F0;
+}*/
+#choisissez, #composer, #deguster{
+	margin-right: 27px
+}
+.ancre1, .ancre2, .ancre3{
+	background-color: #F2F2F2;
+	display: flex;
+	align-items: center;
+	margin-top: 11px;
+	padding: 0px 250px 0px 22px;
+	border-radius: 10px;
+	box-shadow: 0 0 1px;
+	/*position: relative;*/
+}
+.number{
+	margin-left: -30px;
+	position: absolute;
+	background-color: #C956F0;
+	border-radius:50%;
+	padding: 4px;
+	font-size: 1.0em;
+	color: white;
+	font-weight: normal;
+}
+.ancre1:hover, .ancre2:hover, .ancre3:hover{
+	background-color: #DEA0F2;
+}
+.fonctionnement{
+	font-size: 1.5em;
+	font-weight: bold;
+	text-align: center;
+}
+#bloc_bas{
+	width: 90%;
+	height: 430px;
+	border: 1px #f2f2f2 solid;
+	background-color: #f2f2f2;
+	margin-left: 71px;
+	margin-top: 45px;
+}
+#conteneur{
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+.restaurant{
+	width: 306px;
+	height: 280px;
+	border: 1px white solid;
+	border-radius: 15px;
+	background-color: white;
+
+}
+#image1{
+	background-image: url("images/food.jpg");
+	width: 100%;
+	height: 200px;
+	margin: auto;
+	border-top-left-radius: 15px;
+	border-top-right-radius: 15px;
+	background-position: center;
+
+}
+.nouveau{
+	width: 80px;
+	height: 25px;
+	background-color: green;
+	color: white;
+	margin-left: 179px;
+	padding: 5px 10px 5px 15px;
+	opacity: 95%;
+	margin-top: 13px;
+	position: absolute;
+	display: flex;
+	align-items: center;
+
+}
+#image1{
+	background-image: url("images/food.jpg");
+	width: 100%;
+	height: 200px;
+	margin: auto;
+	border-top-left-radius: 15px;
+	border-top-right-radius: 15px;
+	background-position: center;
+
+}
+#image1{
+	background-image: url("images/food11.jpg");
+	width: 100%;
+	height: 200px;
+	margin: auto;
+	border-top-left-radius: 15px;
+	border-top-right-radius: 15px;
+	background-size: 143%
+	/*background-position: center;*/
+}
+#image2{
+	background-image: url("images/food2.jpg");
+	width: 100%;
+	height: 200px;
+	margin: auto;
+	border-top-left-radius: 15px;
+	border-top-right-radius: 15px;
+	background-position: center;
+}
+#image3{
+	background-image: url("images/food5.jpg");
+	width: 100%;
+	height: 200px;
+	margin: auto;
+	border-top-left-radius: 15px;
+	border-top-right-radius: 15px;
+	background-position: center;
+}
+#image4{
+	background-image: url("images/food4.jpg");
+	width: 100%;
+	height: 200px;
+	margin: auto;
+	border-top-left-radius: 15px;
+	border-top-right-radius: 15px;
+	background-position: center;
+}
+.texte_bloc{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+
+}
+h6{
+	margin-left: 14px;
+	margin-top: -20px;
+	font-weight: normal;
+	font-size: 1.0em;
+}
+.resto{
+	margin: 35px 0 25px 40px;
+	marg
+}
+.bloc{
+	margin-right: 10px
+}
+#coeur{
+	padding-left: 92px;
+	font-size: 1.3em;
+	transform: scale(1);
+	transition: transform 300ms;
+}
+#coeur:hover{
+	color: red;
+	transform: scale(1.5);
+}
+#bas_page{
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	width: 90%;
+	height: 160px;
+	border: 1px black solid;
+	background-color: black;
+	margin-left: 71px;
+	/*margin-top: 35px;*/
+}
+.tipa{
+	display: flex;
+	align-items: center;
+	margin-left: -11px;
+
+}
+.titre{
+	margin-left: 15px;
+	color: wheat;
+	font-weight: normal;
+}
+.myfood{
+	font-size: 1.5em;
+	font-weight: bold;
+}
+.bas1{
+	color: white;
+}

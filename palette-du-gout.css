@@ -1,0 +1,145 @@
+body{
+	font-family: montserrat;
+}
+header{
+	display: flex;
+	justify-content: center;
+}
+.menu{
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	width: 90%;
+	height: 85px;
+	border: 1px #f2f2f2 solid;
+	background-color: #f2f2f2;
+	margin-top: -22px
+}
+.logo{
+	font-size: 2.9em;
+	font-weight: bold;
+}
+
+#image_big{
+	background-image: url("images/food11-1.jpg");
+	background-repeat: no-repeat;
+	width: 90.1%;
+	height: 480px;
+	background-size: 100%;
+	margin-left: 74px;
+}
+.bloc_grand{
+	width: 90.3%;
+	height: 550px;
+	border: 1px #f2f2f2 solid;
+	background-color: #f2f2f2;
+	margin-left: 72px;
+	border-top-right-radius: 45px;
+	border-top-left-radius: 45px;
+	margin-top: -35px
+}
+.bloc_palette{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.palette{
+	margin-right: 1100px;
+}
+.first_ligne{
+	display: flex;
+	justify-content: space-around;
+	margin-right: 160px;
+}
+.trait{
+	border-bottom: 2px solid green;
+  	padding: 0 0 11px 1px
+}
+h3{
+	font-weight: normal;
+	font-size: 14px;
+}
+h2{
+	font-size: 18px;
+	font-weight: bold;
+}
+.conteneur_rectangle{
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+
+.texte_money{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin-top: -33px;
+}
+.conteneur_rectangle{
+	margin-top: 22px
+}
+.bloc_rectangle{
+	width: 320px;
+	height: 80px;
+	/*border: 1px black solid;*/
+	border-radius: 20px;
+	background-color: white;
+	padding: 1px 10px 1px 10px;
+	margin-bottom: 22px
+}
+.sous_texte{
+	font-weight: normal;
+}
+h6{
+	font-size: 14px;
+	margin-top: 23px
+}
+.commander{
+	background-image: linear-gradient(#754674, #C956F0);
+	font-size: 0.9em;
+	border-radius: 17px;
+	padding: 12px;
+	color: white;
+	width: 20%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: auto;
+	margin-top: 22px
+
+}
+
+a{
+	color: white;
+	text-decoration: none;
+}
+
+#bas_page{
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	width: 90.4%;
+	height: 160px;
+	border: 1px black solid;
+	background-color: black;
+	margin-left: 71px;
+	/*margin-top: 35px;*/
+}
+.tipa{
+	display: flex;
+	align-items: center;
+	margin-left: -11px;
+
+}
+.titre{
+	margin-left: 15px;
+	color: wheat;
+	font-weight: normal;
+}
+.myfood{
+	font-size: 1.5em;
+	font-weight: bold;
+}
+.bas1{
+	color: white;
+}
