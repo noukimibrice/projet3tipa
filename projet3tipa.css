@@ -265,3 +265,163 @@ h6{
 .bas1{
 	color: white;
 }
+
+@media screen and (max-width: 1408px){
+	#bloc_bas{
+		height: 800px;
+
+	}
+	#conteneur{
+		flex-wrap: wrap;
+		margin: 40px;
+	}
+	.restaurant{
+		margin-bottom: 55px
+	}
+
+}
+@media screen and (max-width: 1175px){
+	.container{
+		margin-left: -120px
+	}
+	
+}
+@media screen and (max-width: 1175px){
+	.ancre1, .ancre2, .ancre3{
+		padding-right: 100px
+	}
+}
+@media screen and (max-width: 973px){
+	#bas_page{
+		/*display: none;*/
+		
+	}
+	#partenaire{
+		display: none;
+	}
+	.ancre1, .ancre2, .ancre3{
+		padding-right: 5px
+	}
+	div .carre{
+		margin-left: -65px;
+	}
+	#bloc_droite{
+		margin-left: 140px;
+	}
+}
+@media screen and (max-width: 850px){
+	.ancre1, .ancre2, .ancre3{
+		padding-right: 5px
+	}
+	div .carre{
+		margin-left: -65px;
+	}
+	#bloc_droite{
+		margin-left: 140px;
+	}
+
+}
+@media screen and (max-width: 791px){
+	#bloc_bas{
+		height: auto;
+
+	}
+	div#bas_page{
+		margin: auto;
+
+	}
+
+	div#bloc_bas{
+		margin: auto;
+		margin-top: 55px
+	}
+	article{
+		display: flex;
+		flex-direction: column;
+		
+	}
+	div.carre{
+		margin: auto;
+		
+	}
+	.fonctionnement{
+		margin-left: -155px;
+	}
+	h4.titre{
+		font-size: 0.7rem;
+	}
+}
+@media screen and (max-width: 600px){
+	h4.titre{
+		font-size: 0.5rem;
+	}
+	div.carre{
+		margin-left: -19px;
+		
+	}
+	.myfood{
+		font-size: 0.6rem;
+	}
+}
+@media screen and (max-width: 481px){
+	.myfood{
+		font-size: 0.5rem;
+	}
+	div.carre{
+		margin-left: auto;
+		
+	}
+	#bloc_gauche{
+		margin: auto;
+		margin-top: 22px;
+	}
+}
+@media screen and (max-width: 415px){
+	/*div.carre{
+		width: 250px;
+		height: 250px;
+	}*/
+	/*.partie2{
+		font-size: 9px;
+		margin: 22px;
+	}*/
+	#bloc_gauche{
+		
+		margin-left: -11px;
+		
+	}
+	div.carre{
+		font-size: 0.8rem;
+		width: 70%;
+		margin: auto;
+	}
+	h4.titre{
+		font-size: 0.3rem;
+	}
+	h4{
+		font-size: 0.8rem;
+	}
+	
+	div.partie1{
+		width: 100%;
+	}
+	div.nouveau{
+		margin-left: -1px
+	}
+}
+@media screen and (max-width: 355px){
+	h6{
+		/*font-size: 0.8rem;
+		float: left;*/
+	}
+	.texte_bloc h4{
+		font-size: 0.9rem;
+		float: left;
+		display: inline;
+		flex-wrap: nowrap;
+		color: red;
+		width: 200px
+		/*text-align: right;*/
+	}
+	
+}
